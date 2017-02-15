@@ -1,0 +1,14 @@
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\AzizTic.DataAccess.dll.config
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\AzizTic.DataAccess.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\AzizTic.DataAccess.pdb
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\AzizTic.Core.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\AzizTic.Entities.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\EntityFramework.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\AzizTic.Core.pdb
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\AzizTic.Entities.pdb
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\EntityFramework.xml
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\obj\Debug\AzizTic.DataAccess.csprojResolveAssemblyReference.cache
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\obj\Debug\AzizTic.DataAccess.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.DataAccess\obj\Debug\AzizTic.DataAccess.pdb

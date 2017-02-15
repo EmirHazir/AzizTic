@@ -1,0 +1,12 @@
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\bin\Debug\AzizTic.Entities.dll.config
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\bin\Debug\AzizTic.Entities.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\bin\Debug\AzizTic.Entities.pdb
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\bin\Debug\AzizTic.Core.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\bin\Debug\EntityFramework.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\bin\Debug\AzizTic.Core.pdb
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\bin\Debug\EntityFramework.xml
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\obj\Debug\AzizTic.Entities.csprojResolveAssemblyReference.cache
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\obj\Debug\AzizTic.Entities.dll
+c:\users\emirhazir\documents\visual studio 2015\Projects\AzizTic\AzizTic.Entities\obj\Debug\AzizTic.Entities.pdb

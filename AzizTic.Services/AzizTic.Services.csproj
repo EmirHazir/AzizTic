@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{083A299B-23A1-4F4F-B7F7-0B1A0B45182B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AzizTic.Services</RootNamespace>
+    <AssemblyName>AzizTic.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\ISepetService.cs" />
+    <Compile Include="Abstract\ISiparisDetayService.cs" />
+    <Compile Include="Abstract\ISiparisService.cs" />
+    <Compile Include="Abstract\ITedarikciService.cs" />
+    <Compile Include="Abstract\IUrunlerService.cs" />
+    <Compile Include="Abstract\IYorumService.cs" />
+    <Compile Include="Concrete\SiparisDetayManager.cs" />
+    <Compile Include="Concrete\SiparisManager.cs" />
+    <Compile Include="Concrete\TedarikciManager.cs" />
+    <Compile Include="Concrete\UrunlerManager.cs" />
+    <Compile Include="Concrete\YorumManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AzizTic.Core\AzizTic.Core.csproj">
+      <Project>{c9268891-db27-4946-af33-96096451f20c}</Project>
+      <Name>AzizTic.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AzizTic.DataAccess\AzizTic.DataAccess.csproj">
+      <Project>{3627206e-d681-4f3c-8b13-eb026908a1d3}</Project>
+      <Name>AzizTic.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AzizTic.Entities\AzizTic.Entities.csproj">
+      <Project>{0D713EEF-6AEB-4BD0-9D65-6E894CFAD1E6}</Project>
+      <Name>AzizTic.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
