@@ -61,7 +61,6 @@
     <Compile Include="Concrete\OdemeTipleri.cs" />
     <Compile Include="Concrete\Roller.cs" />
     <Compile Include="Concrete\Sepet.cs" />
-    <Compile Include="Concrete\SepetIcerik.cs" />
     <Compile Include="Concrete\Siparisler.cs" />
     <Compile Include="Concrete\Siparis_Detay.cs" />
     <Compile Include="Concrete\Tedarikciler.cs" />

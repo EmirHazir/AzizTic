@@ -59,6 +59,7 @@
     <Compile Include="Abstract\IOdemeTipleriDAL.cs" />
     <Compile Include="Abstract\IRollerDAL.cs" />
     <Compile Include="Abstract\ISepetDAL.cs" />
+    <Compile Include="Abstract\ISepetIcerikDAL.cs" />
     <Compile Include="Abstract\ISiparislerDAL.cs" />
     <Compile Include="Abstract\ISiparis_DetayDAL.cs" />
     <Compile Include="Abstract\ITedarikcilerDAL.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Concrete\EntityFramework\EfOdemeTipleriDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfRollerDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfSepetDAL.cs" />
+    <Compile Include="Concrete\EntityFramework\EfSepetIcerikDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfSiparislerDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfSiparis_DetayDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfTedarikcilerDAL.cs" />

@@ -40,12 +40,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAltKategorilerService.cs" />
+    <Compile Include="Abstract\IKargoSirketleriService.cs" />
+    <Compile Include="Abstract\IKategoriService.cs" />
+    <Compile Include="Abstract\IKullanicilarService.cs" />
+    <Compile Include="Abstract\IKullaniciTipleriService.cs" />
+    <Compile Include="Abstract\IMusterilerService.cs" />
+    <Compile Include="Abstract\IOdemelerService.cs" />
+    <Compile Include="Abstract\IOdemeTipleriService.cs" />
+    <Compile Include="Abstract\IRollerService.cs" />
     <Compile Include="Abstract\ISepetService.cs" />
     <Compile Include="Abstract\ISiparisDetayService.cs" />
     <Compile Include="Abstract\ISiparisService.cs" />
     <Compile Include="Abstract\ITedarikciService.cs" />
     <Compile Include="Abstract\IUrunlerService.cs" />
     <Compile Include="Abstract\IYorumService.cs" />
+    <Compile Include="Concrete\AltKategoriManager.cs" />
+    <Compile Include="Concrete\KargoSirketleriManager.cs" />
+    <Compile Include="Concrete\KategoriManager.cs" />
+    <Compile Include="Concrete\KullanicilarManager.cs" />
+    <Compile Include="Concrete\KullaniciTipleriManager.cs" />
+    <Compile Include="Concrete\MusterilerManager.cs" />
+    <Compile Include="Concrete\OdemelerManager.cs" />
+    <Compile Include="Concrete\OdemeTipleriManager.cs" />
+    <Compile Include="Concrete\RollerManager.cs" />
+    <Compile Include="Concrete\SepetManager.cs" />
     <Compile Include="Concrete\SiparisDetayManager.cs" />
     <Compile Include="Concrete\SiparisManager.cs" />
     <Compile Include="Concrete\TedarikciManager.cs" />
