@@ -98,6 +98,18 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\AltKategoriVM.cs" />
+    <Compile Include="ViewModels\KargoSirketleriVM.cs" />
+    <Compile Include="ViewModels\KategoriVM.cs" />
+    <Compile Include="ViewModels\KullanicilarVM.cs" />
+    <Compile Include="ViewModels\MusterilerVM.cs" />
+    <Compile Include="ViewModels\OdemelerVM.cs" />
+    <Compile Include="ViewModels\RollerVM.cs" />
+    <Compile Include="ViewModels\SepetIcerikVM.cs" />
+    <Compile Include="ViewModels\SiparislerVM.cs" />
+    <Compile Include="ViewModels\TedarikcilerVM.cs" />
+    <Compile Include="ViewModels\UrunVM.cs" />
+    <Compile Include="ViewModels\YorumlarVM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -112,7 +124,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AzizTic.Core\AzizTic.Core.csproj">
