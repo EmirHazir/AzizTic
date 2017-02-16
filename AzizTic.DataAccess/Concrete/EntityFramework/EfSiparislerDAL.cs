@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AzizTic.DataAccess.Concrete.EntityFramework
 {
-   public class EfSiparislerDAL : EfRepositoryBase<Siparisler,Model>,ISiparislerDAL
+   public class EfSiparislerDAL : EfRepositoryBase<Siparisler,ModelDBContext>,ISiparislerDAL
     {
     }
 }

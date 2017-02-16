@@ -58,8 +58,6 @@
     <Compile Include="Abstract\IOdemelerDAL.cs" />
     <Compile Include="Abstract\IOdemeTipleriDAL.cs" />
     <Compile Include="Abstract\IRollerDAL.cs" />
-    <Compile Include="Abstract\ISepetDAL.cs" />
-    <Compile Include="Abstract\ISepetIcerikDAL.cs" />
     <Compile Include="Abstract\ISiparislerDAL.cs" />
     <Compile Include="Abstract\ISiparis_DetayDAL.cs" />
     <Compile Include="Abstract\ITedarikcilerDAL.cs" />
@@ -74,14 +72,21 @@
     <Compile Include="Concrete\EntityFramework\EfOdemelerDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfOdemeTipleriDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfRollerDAL.cs" />
-    <Compile Include="Concrete\EntityFramework\EfSepetDAL.cs" />
-    <Compile Include="Concrete\EntityFramework\EfSepetIcerikDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfSiparislerDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfSiparis_DetayDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfTedarikcilerDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfUrunDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfYorumDAL.cs" />
-    <Compile Include="Concrete\EntityFramework\Model.cs" />
+    <Compile Include="Concrete\EntityFramework\ModelDBContext.cs" />
+    <Compile Include="Migrations\201702162116440_kurulumCodeF.cs" />
+    <Compile Include="Migrations\201702162116440_kurulumCodeF.Designer.cs">
+      <DependentUpon>201702162116440_kurulumCodeF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702162137219_deletedSepet.cs" />
+    <Compile Include="Migrations\201702162137219_deletedSepet.Designer.cs">
+      <DependentUpon>201702162137219_deletedSepet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +102,14 @@
       <Project>{0D713EEF-6AEB-4BD0-9D65-6E894CFAD1E6}</Project>
       <Name>AzizTic.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201702162116440_kurulumCodeF.resx">
+      <DependentUpon>201702162116440_kurulumCodeF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702162137219_deletedSepet.resx">
+      <DependentUpon>201702162137219_deletedSepet.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

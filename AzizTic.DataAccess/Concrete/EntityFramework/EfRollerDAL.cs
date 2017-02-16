@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AzizTic.DataAccess.Concrete.EntityFramework
 {
-    public class EfRollerDAL : EfRepositoryBase<Roller,Model>,IRollerDAL
+    public class EfRollerDAL : EfRepositoryBase<Roller,ModelDBContext>,IRollerDAL
     {
     }
 }

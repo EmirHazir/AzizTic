@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AzizTic.DataAccess.Concrete.EntityFramework
 {
-    public class EfUrunDAL : EfRepositoryBase<Urunler, Model>,IUrunDAL
+    public class EfUrunDAL : EfRepositoryBase<Urunler, ModelDBContext>,IUrunDAL
     {
     }
 }

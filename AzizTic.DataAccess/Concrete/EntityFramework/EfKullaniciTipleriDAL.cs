@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AzizTic.DataAccess.Concrete.EntityFramework
 {
-    public class EfKullaniciTipleriDAL : EfRepositoryBase<KullaniciTipleri,Model>, IKullaniciTipleriDAL
+    public class EfKullaniciTipleriDAL : EfRepositoryBase<KullaniciTipleri,ModelDBContext>, IKullaniciTipleriDAL
     {
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AzizTic.DataAccess.Concrete.EntityFramework
 {
-   public class EfOdemelerDAL : EfRepositoryBase<Odemeler,Model>,IOdemelerDAL
+   public class EfOdemelerDAL : EfRepositoryBase<Odemeler,ModelDBContext>,IOdemelerDAL
     {
     }
 }

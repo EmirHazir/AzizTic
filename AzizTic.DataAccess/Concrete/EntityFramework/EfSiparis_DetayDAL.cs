@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AzizTic.DataAccess.Concrete.EntityFramework
 {
-    public class EfSiparis_DetayDAL : EfRepositoryBase<Siparis_Detay,Model>, ISiparis_DetayDAL
+    public class EfSiparis_DetayDAL : EfRepositoryBase<Siparis_Detay,ModelDBContext>, ISiparis_DetayDAL
     {
     }
 }

@@ -105,7 +105,6 @@
     <Compile Include="ViewModels\MusterilerVM.cs" />
     <Compile Include="ViewModels\OdemelerVM.cs" />
     <Compile Include="ViewModels\RollerVM.cs" />
-    <Compile Include="ViewModels\SepetIcerikVM.cs" />
     <Compile Include="ViewModels\SiparislerVM.cs" />
     <Compile Include="ViewModels\TedarikcilerVM.cs" />
     <Compile Include="ViewModels\UrunVM.cs" />

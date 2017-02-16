@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AzizTic.DataAccess.Concrete.EntityFramework
 {
-    public class EfYorumDAL: EfRepositoryBase<Yorumlar, Model>, IYorumDAL
+    public class EfYorumDAL: EfRepositoryBase<Yorumlar, ModelDBContext>, IYorumDAL
     {
     }
 }

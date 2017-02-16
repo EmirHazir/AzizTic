@@ -9,7 +9,7 @@ using AzizTic.DataAccess.Abstract;
 
 namespace AzizTic.Services.Concrete
 {
-    public class OdemelerManager : IOdemeleService
+    public class OdemelerManager : IOdemelerService
     {
         private IOdemelerDAL _odemelerDal;
         public OdemelerManager(IOdemelerDAL odemelerDal)
@@ -27,9 +27,9 @@ namespace AzizTic.Services.Concrete
             return _odemelerDal.GetList(x => x.KullaniciTipId == kullaniciTipId);
         }
 
-        Odemeler GetByOdemeId(int odemelerId)
+        public Odemeler GetByOdemeId(int odemelerId)
         {
-           return _odemelerDal.Get(x => x.Id == odemelerId);
+            return _odemelerDal.Get(x => x.Id == odemelerId);
         }
     }
 }

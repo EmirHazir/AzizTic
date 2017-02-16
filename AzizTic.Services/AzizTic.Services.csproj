@@ -49,7 +49,6 @@
     <Compile Include="Abstract\IOdemelerService.cs" />
     <Compile Include="Abstract\IOdemeTipleriService.cs" />
     <Compile Include="Abstract\IRollerService.cs" />
-    <Compile Include="Abstract\ISepetService.cs" />
     <Compile Include="Abstract\ISiparisDetayService.cs" />
     <Compile Include="Abstract\ISiparisService.cs" />
     <Compile Include="Abstract\ITedarikciService.cs" />
@@ -64,7 +63,6 @@
     <Compile Include="Concrete\OdemelerManager.cs" />
     <Compile Include="Concrete\OdemeTipleriManager.cs" />
     <Compile Include="Concrete\RollerManager.cs" />
-    <Compile Include="Concrete\SepetManager.cs" />
     <Compile Include="Concrete\SiparisDetayManager.cs" />
     <Compile Include="Concrete\SiparisManager.cs" />
     <Compile Include="Concrete\TedarikciManager.cs" />

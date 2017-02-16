@@ -14,7 +14,7 @@ namespace AzizTic.Entities.Concrete
         public Kullanicilar()
         {
             KullaniciTipleri = new HashSet<KullaniciTipleri>();
-            Sepet = new HashSet<Sepet>();
+    
             Roller = new HashSet<Roller>();
         }
 
@@ -54,8 +54,7 @@ namespace AzizTic.Entities.Concrete
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<KullaniciTipleri> KullaniciTipleri { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Sepet> Sepet { get; set; }
+        
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Roller> Roller { get; set; }

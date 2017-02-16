@@ -1,0 +1,13 @@
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\bin\Debug\AzizTic.Services.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\bin\Debug\AzizTic.Services.pdb
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\bin\Debug\AzizTic.Core.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\bin\Debug\AzizTic.DataAccess.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\bin\Debug\AzizTic.Entities.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\bin\Debug\EntityFramework.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\bin\Debug\AzizTic.Core.pdb
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\bin\Debug\AzizTic.DataAccess.pdb
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\bin\Debug\AzizTic.Entities.pdb
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\bin\Debug\EntityFramework.xml
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\obj\Debug\AzizTic.Services.csprojResolveAssemblyReference.cache
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\obj\Debug\AzizTic.Services.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Services\obj\Debug\AzizTic.Services.pdb

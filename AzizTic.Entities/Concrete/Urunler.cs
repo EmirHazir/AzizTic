@@ -13,7 +13,6 @@ namespace AzizTic.Entities.Concrete
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Urunler()
         {
-            Sepet = new HashSet<Sepet>();
             Siparis_Detay = new HashSet<Siparis_Detay>();
         }
 
@@ -50,8 +49,7 @@ namespace AzizTic.Entities.Concrete
 
         public virtual Kategoriler Kategoriler { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Sepet> Sepet { get; set; }
+        
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Siparis_Detay> Siparis_Detay { get; set; }

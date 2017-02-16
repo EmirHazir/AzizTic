@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AzizTic.DataAccess.Concrete.EntityFramework
 {
-     public class EfMusterilerDAL : EfRepositoryBase<Musteriler,Model>,IMusterilerDAL
+     public class EfMusterilerDAL : EfRepositoryBase<Musteriler,ModelDBContext>,IMusterilerDAL
     {
     }
 }

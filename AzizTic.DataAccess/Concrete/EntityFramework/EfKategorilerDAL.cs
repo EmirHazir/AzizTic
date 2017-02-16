@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AzizTic.DataAccess.Concrete.EntityFramework
 {
-    public class EfKategorilerDAL : EfRepositoryBase<Kategoriler,Model>,IKategorilerDAL
+    public class EfKategorilerDAL : EfRepositoryBase<Kategoriler,ModelDBContext>,IKategorilerDAL
     {
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AzizTic.DataAccess.Concrete.EntityFramework
 {
-    public class EfKargoSirketleriDAL : EfRepositoryBase<KargoSirketleri,Model>, IKargoSirketleriDAL
+    public class EfKargoSirketleriDAL : EfRepositoryBase<KargoSirketleri,ModelDBContext>, IKargoSirketleriDAL
     {
     }
 }
