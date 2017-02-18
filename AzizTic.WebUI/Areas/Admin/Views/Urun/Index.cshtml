@@ -1,0 +1,31 @@
+﻿@model IEnumerable<AzizTic.WebUI.ViewModels.UrunVM>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.Urunlers)
+    {
+        <tr>
+            <td></td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.UrunId  }) 
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new {  id=item.UrunId  })
+            </td>
+        </tr>
+    }
+
+</table>
