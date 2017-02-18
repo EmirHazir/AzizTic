@@ -5,5 +5,6 @@ C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Core\bi
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Core\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Core\bin\Debug\EntityFramework.xml
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Core\obj\Debug\AzizTic.Core.csprojResolveAssemblyReference.cache
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Core\obj\Debug\AzizTic.Core.dll
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Core\obj\Debug\AzizTic.Core.pdb

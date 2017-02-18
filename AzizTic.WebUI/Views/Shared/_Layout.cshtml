@@ -3,8 +3,8 @@
 <html>
 <head>
     <title>Resale a Business Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
- 
-    <link href="~/Materials/webassest/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Materials/webassest/css/bootstrap-select.css" rel="stylesheet" />
     <link href="~/Materials/webassest/css/style.css" rel="stylesheet" />
     <link href="~/Materials/webassest/css/flexslider.css" rel="stylesheet" />
@@ -23,6 +23,7 @@
     <script src="~/Materials/webassest/js/jquery.min.js"></script>
     <!-- js -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  
     <script src="~/Materials/webassest/js/bootstrap.min.js"></script>
     <script src="~/Materials/webassest/js/bootstrap-select.js"></script>
 
@@ -58,6 +59,8 @@
     <script src="~/Materials/webassest/js/jquery.uls.languagefilter.js"></script>
     <script src="~/Materials/webassest/js/jquery.uls.regionfilter.js"></script>
     <script src="~/Materials/webassest/js/jquery.uls.core.js"></script>
+    <script src="~/Materials/webassest/js/tabs.js"></script>
+
 
     <script>
         $(document).ready(function () {
@@ -79,5 +82,6 @@
         @Html.Partial("TrendingAds")
     </div>
     @Html.Partial("FooterPartial")
+    @RenderSection("scripts", required: false)
 </body>
 </html>
