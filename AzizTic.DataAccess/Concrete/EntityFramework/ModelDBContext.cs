@@ -5,17 +5,18 @@ namespace AzizTic.DataAccess
 {
     using System;
     using System.Data.Entity;
-    using System;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
     using Entities.Concrete;
     using System.Data.Entity.ModelConfiguration.Conventions;
+    using Migrations;
 
     public partial class ModelDBContext : DbContext
     {
         public ModelDBContext()
             : base("Baglanti")
         {
+           
         }
 
         public virtual DbSet<Alt_Kategoriler> Alt_Kategoriler { get; set; }
@@ -26,8 +27,7 @@ namespace AzizTic.DataAccess
         public virtual DbSet<Musteriler> Musteriler { get; set; }
         public virtual DbSet<Odemeler> Odemeler { get; set; }
         public virtual DbSet<OdemeTipleri> OdemeTipleri { get; set; }
-        public virtual DbSet<Roller> Roller { get; set; }
-
+        public virtual DbSet<Roller> Roller { get; set; }              
         public virtual DbSet<Siparis_Detay> Siparis_Detay { get; set; }
         public virtual DbSet<Siparisler> Siparisler { get; set; }
         public virtual DbSet<Tedarikciler> Tedarikciler { get; set; }
@@ -40,6 +40,10 @@ namespace AzizTic.DataAccess
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
+
+        
+
 
         #region OnModel
         //protected override void OnModelCreating(DbModelBuilder modelBuilder)

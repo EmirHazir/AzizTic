@@ -9,7 +9,7 @@ namespace AzizTic.DataAccess.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(AzizTic.DataAccess.ModelDBContext context)

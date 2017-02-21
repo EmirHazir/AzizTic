@@ -78,14 +78,6 @@
     <Compile Include="Concrete\EntityFramework\EfUrunDAL.cs" />
     <Compile Include="Concrete\EntityFramework\EfYorumDAL.cs" />
     <Compile Include="Concrete\EntityFramework\ModelDBContext.cs" />
-    <Compile Include="Migrations\201702162116440_kurulumCodeF.cs" />
-    <Compile Include="Migrations\201702162116440_kurulumCodeF.Designer.cs">
-      <DependentUpon>201702162116440_kurulumCodeF.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201702162137219_deletedSepet.cs" />
-    <Compile Include="Migrations\201702162137219_deletedSepet.Designer.cs">
-      <DependentUpon>201702162137219_deletedSepet.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -104,12 +96,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201702162116440_kurulumCodeF.resx">
-      <DependentUpon>201702162116440_kurulumCodeF.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201702162137219_deletedSepet.resx">
-      <DependentUpon>201702162137219_deletedSepet.cs</DependentUpon>
-    </EmbeddedResource>
+    <Folder Include="Concrete\nhibrenet\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

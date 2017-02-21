@@ -41,3 +41,17 @@ C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\b
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\obj\Debug\AzizTic.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\obj\Debug\AzizTic.WebUI.dll
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\obj\Debug\AzizTic.WebUI.pdb
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\AzizTic.Common.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\Microsoft.Owin.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\Ninject.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\Ninject.Web.Common.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\Ninject.Web.Mvc.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\Owin.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\WebActivatorEx.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\AutoMapper.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\AzizTic.Common.pdb
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\Microsoft.Owin.xml
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\Ninject.xml
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\Ninject.Web.Common.xml
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\Ninject.Web.Mvc.xml
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.WebUI\bin\AutoMapper.xml

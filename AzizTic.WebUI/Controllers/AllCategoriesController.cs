@@ -10,18 +10,21 @@ namespace AzizTic.WebUI.Controllers
 {
     public class AllCategoriesController : Controller
     {
-        //private IKategoriService _kategoriService;
-        //public AllCategoriesController(IKategoriService kategoriService)
-        //{
-        //    _kategoriService = kategoriService;
-        //}
+        private IKategoriService _kategoriService;
+        public AllCategoriesController(IKategoriService kategoriService)
+        {
+            _kategoriService = kategoriService;
+        }
         public ActionResult Index()
         {
-            //KategoriVM model = new KategoriVM
-            //{
-            //    Kategorilers = _kategoriService.GetAll()
-            //};
-            return View();//modeli basıcam ama önyüzde patlıyor 
+            KategoriVM model = new KategoriVM
+            {
+                Kategorilers = _kategoriService.GetAll().ToList()
+            };
+            return View(model);
         }
+
+
+
     }
 }

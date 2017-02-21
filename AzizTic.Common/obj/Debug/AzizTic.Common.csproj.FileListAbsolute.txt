@@ -1,0 +1,7 @@
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Common\bin\Debug\AzizTic.Common.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Common\bin\Debug\AzizTic.Common.pdb
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Common\bin\Debug\AutoMapper.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Common\bin\Debug\AutoMapper.xml
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Common\obj\Debug\AzizTic.Common.csprojResolveAssemblyReference.cache
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Common\obj\Debug\AzizTic.Common.dll
+C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.Common\obj\Debug\AzizTic.Common.pdb

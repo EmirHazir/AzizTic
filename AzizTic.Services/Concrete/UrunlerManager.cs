@@ -18,6 +18,12 @@ namespace AzizTic.Services.Concrete
             _urunDal = urunDal;
         }
 
+
+
+
+
+
+
         public void Add(Urunler urun)
         {
             _urunDal.Add(urun);

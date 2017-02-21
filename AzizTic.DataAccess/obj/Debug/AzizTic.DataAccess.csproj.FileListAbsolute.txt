@@ -10,8 +10,5 @@ C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.DataAcc
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\EntityFramework.xml
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.DataAccess\obj\Debug\AzizTic.DataAccess.csprojResolveAssemblyReference.cache
-C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.DataAccess\obj\Debug\AzizTic.DataAccess.Migrations.kurulumCodeF.resources
-C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.DataAccess\obj\Debug\AzizTic.DataAccess.Migrations.deletedSepet.resources
-C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.DataAccess\obj\Debug\AzizTic.DataAccess.csproj.GenerateResource.Cache
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.DataAccess\obj\Debug\AzizTic.DataAccess.dll
 C:\Users\EmirHazir\Documents\Visual Studio 2015\Projects\AzizTic\AzizTic.DataAccess\obj\Debug\AzizTic.DataAccess.pdb
